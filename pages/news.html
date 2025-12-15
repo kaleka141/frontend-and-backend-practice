@@ -4,40 +4,45 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Новости</title>
+  <link rel="stylesheet" href="../style/styles.css">
 </head>
 <body>
-  <div id="header">Хэдер</div>
+  <div class="page-container">
+    <div class="header">Портфолио студента</div>
 
-  <div id="menu">
-    <ul>
-      <li><a href="../index.html">Главная</a></li>
-      <li><a href="news.html">Новости</a></li>
-      <li><a href="practices.html">Практики</a></li>
-      <li><a href="goods.html">Товары</a></li>
-      <li><a href="contacts.html">Контакты</a></li>
-    </ul>
+    <div class="nav">
+      <ul class="nav-list">
+        <li class="nav-item"><a class="nav-link" href="../index.html">Главная</a></li>
+        <li class="nav-item"><a class="nav-link" href="news.html">Новости</a></li>
+        <li class="nav-item"><a class="nav-link" href="practices.html">Практики</a></li>
+        <li class="nav-item"><a class="nav-link" href="goods.html">Товары</a></li>
+        <li class="nav-item"><a class="nav-link" href="contacts.html">Контакты</a></li>
+      </ul>
+    </div>
+
+    <div class="content">
+      <h2 class="section-title">Новости</h2>
+
+      <div class="experience-card">
+        <h3 class="experience-title">Новый курс по HTML</h3>
+        <p class="experience-desc"><em>10 декабря 2025 | Автор: Иван Иванов</em><br>
+        Запущен новый курс по основам HTML от кафедры индустриального программирования.</p>
+      </div>
+
+      <div class="experience-card">
+        <h3 class="experience-title">Практика по фронтенду</h3>
+        <p class="experience-desc"><em>5 декабря 2025 | Автор: Иван Иванов</em><br>
+        Выполнена практическая работа №7 по созданию многостраничного сайта.</p>
+      </div>
+
+      <div class="experience-card">
+        <h3 class="experience-title">GitHub Pages активирован</h3>
+        <p class="experience-desc"><em>1 декабря 2025 | Автор: Иван Иванов</em><br>
+        Сайт успешно опубликован через GitHub Pages и доступен онлайн.</p>
+      </div>
+    </div>
+
+    <div class="footer">© 2025 Клименко Ю.А.</div>
   </div>
-
-  <div id="content">
-    <div>
-      <h2>Новость 1: Старт семестра</h2>
-      <p>1 сентября 2025 | Автор: Иванов И.И.</p>
-      <p>Семестр начался с интересной лекции по фронтенду.</p>
-    </div>
-
-    <div>
-      <h2>Новость 2: Практика по HTML</h2>
-      <p>15 сентября 2025 | Автор: Иванов И.И.</p>
-      <p>Студенты начали разработку своих сайтов на HTML.</p>
-    </div>
-
-    <div>
-      <h2>Новость 3: GitHub Pages работает!</h2>
-      <p>20 сентября 2025 | Автор: Иванов И.И.</p>
-      <p>Все проекты успешно опубликованы и доступны онлайн.</p>
-    </div>
-  </div>
-
-  <div id="footer">Футер</div>
 </body>
 </html>

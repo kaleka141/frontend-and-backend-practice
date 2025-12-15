@@ -4,40 +4,51 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Товары</title>
+  <link rel="stylesheet" href="../style/styles.css">
 </head>
 <body>
-  <div id="header">Хэдер</div>
+  <div class="page-container">
+    <div class="header">Портфолио студента</div>
 
-  <div id="menu">
-    <ul>
-      <li><a href="../index.html">Главная</a></li>
-      <li><a href="news.html">Новости</a></li>
-      <li><a href="practices.html">Практики</a></li>
-      <li><a href="goods.html">Товары</a></li>
-      <li><a href="contacts.html">Контакты</a></li>
-    </ul>
+    <div class="nav">
+      <ul class="nav-list">
+        <li class="nav-item"><a class="nav-link" href="../index.html">Главная</a></li>
+        <li class="nav-item"><a class="nav-link" href="news.html">Новости</a></li>
+        <li class="nav-item"><a class="nav-link" href="practices.html">Практики</a></li>
+        <li class="nav-item"><a class="nav-link" href="goods.html">Товары</a></li>
+        <li class="nav-item"><a class="nav-link" href="contacts.html">Контакты</a></li>
+      </ul>
+    </div>
+
+    <div class="content">
+      <h2 class="section-title">Каталог товаров</h2>
+
+      <div class="experience-card" style="display: flex; align-items: center; gap: 20px;">
+        <img src="../images/goods1.webp" alt="Товар 1" width="150" style="border-radius: 10px;">
+        <div>
+          <h3 class="experience-title">Терка </h3>
+          <p class="experience-desc">Цена: 4 500 ₽</p>
+        </div>
+      </div>
+
+      <div class="experience-card" style="display: flex; align-items: center; gap: 20px;">
+        <img src="../images/goods2.jpg" alt="Товар 2" width="150" style="border-radius: 10px;">
+        <div>
+          <h3 class="experience-title">Шайба для хоккея </h3>
+          <p class="experience-desc">Цена: 1 800 ₽</p>
+        </div>
+      </div>
+
+      <div class="experience-card" style="display: flex; align-items: center; gap: 20px;">
+        <img src="../images/goods3.webp" alt="Товар 3" width="150" style="border-radius: 10px;">
+        <div>
+          <h3 class="experience-title">Бутафорский телефон</h3>
+          <p class="experience-desc">Цена: 1 200 ₽</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">© 2025 Клименко Ю.А.</div>
   </div>
-
-  <div id="content">
-    <div>
-      <img src="../images/goods1.webp" alt="Товар 1" width="150" />
-      <h3>Терка Ikea</h3>
-      <p>Цена: 299 руб.</p>
-    </div>
-
-    <div>
-      <img src="../images/goods2.jpg" alt="Товар 2" width="150" />
-      <h3>Шайба для хоккея </h3>
-      <p>Цена: 999 руб.</p>
-    </div>
-
-    <div>
-      <img src="../images/goods3.webp alt="Товар 3" width="150" />
-      <h3>Телефон</h3>
-      <p>Цена: 599 руб.</p>
-    </div>
-  </div>
-
-  <div id="footer">Футер</div>
 </body>
 </html>

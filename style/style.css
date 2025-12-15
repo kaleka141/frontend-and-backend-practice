@@ -1,4 +1,4 @@
-/*===== БАЗОВЫЕ СТИЛИ =====*/
+/* ===== БАЗОВЫЕ СТИЛИ ===== */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
@@ -7,7 +7,7 @@ body {
   min-height: 100vh;
 }
 
-/*===== КОНТЕЙНЕР СТРАНИЦЫ =====*/
+/* ===== КОНТЕЙНЕР СТРАНИЦЫ ===== */
 .page-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -16,7 +16,7 @@ body {
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
 }
 
-/*===== ШАПКА =====*/
+/* ===== ШАПКА ===== */
 .header {
   background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
   color: white;
@@ -27,7 +27,7 @@ body {
   letter-spacing: 2px;
 }
 
-/*===== НАВИГАЦИЯ =====*/
+/* ===== НАВИГАЦИЯ ===== */
 .nav {
   background: #2c3e50;
   padding: 20px 0;
@@ -60,14 +60,23 @@ body {
   transform: translateY(-2px);
 }
 
-/*===== ОСНОВНОЙ КОНТЕНТ =====*/
+/* ===== ОСНОВНОЙ КОНТЕНТ ===== */
 .content {
   padding: 40px;
   max-width: 900px;
   margin: 0 auto;
 }
 
-/*===== ГЛАВНАЯ СТРАНИЦА =====*/
+/* ===== ЗАГОЛОВКИ СЕКЦИЙ ===== */
+.section-title {
+  font-size: 28px;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 300;
+}
+
+/* ===== ПРОФИЛЬ ===== */
 .profile-header {
   text-align: center;
   margin-bottom: 40px;
@@ -103,6 +112,7 @@ body {
   margin: 5px 0;
 }
 
+/* ===== ОБО МНЕ ===== */
 .about-me {
   background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
   padding: 25px;
@@ -113,7 +123,7 @@ body {
   line-height: 1.8;
 }
 
-/*===== НАВЫКИ =====*/
+/* ===== НАВЫКИ ===== */
 .skills-container {
   display: flex;
   justify-content: center;
@@ -138,17 +148,9 @@ body {
   box-shadow: 0 6px 20px rgba(79, 172, 254, 0.4);
 }
 
-/*===== ОПЫТ РАБОТЫ =====*/
+/* ===== ОПЫТ / КАРТОЧКИ ===== */
 .experience-section {
   margin-top: 50px;
-}
-
-.section-title {
-  font-size: 28px;
-  color: #2c3e50;
-  text-align: center;
-  margin-bottom: 30px;
-  font-weight: 300;
 }
 
 .experience-card {
@@ -178,96 +180,11 @@ body {
   margin: 0;
 }
 
-/*===== ФУТЕР =====*/
+/* ===== ФУТЕР ===== */
 .footer {
   background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
   color: white;
   text-align: center;
   padding: 30px;
   margin-top: 50px;
-}
-
-/*===== ДОПОЛНИТЕЛЬНЫЕ СТИЛИ ДЛЯ ДРУГИХ СТРАНИЦ =====*/
-
-/* Новости */
-.news-item {
-  background: #f9f9f9;
-  padding: 20px;
-  margin: 20px 0;
-  border-radius: 10px;
-  border-left: 4px solid #667eea;
-}
-
-.news-item h2 {
-  color: #2c3e50;
-  margin-top: 0;
-}
-
-.news-item p em {
-  color: #7f8c8d;
-  font-style: italic;
-}
-
-/* Товары */
-.goods-grid {
-  display: flex;
-  gap: 25px;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.goods-card {
-  background: white;
-  padding: 15px;
-  border-radius: 12px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  width: 180px;
-}
-
-.goods-img {
-  width: 100%;
-  height: 150px;
-  object-fit: cover;
-  border-radius: 8px;
-  margin-bottom: 10px;
-}
-
-.goods-price {
-  font-weight: bold;
-  color: #2c3e50;
-  margin: 8px 0 0;
-}
-
-/* Контакты */
-.call-button {
-  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
-  color: white;
-  border: none;
-  padding: 12px 24px;
-  border-radius: 25px;
-  font-weight: 600;
-  cursor: pointer;
-  margin-top: 15px;
-  transition: all 0.3s ease;
-}
-
-.call-button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(79, 172, 254, 0.4);
-}
-
-/* Практики */
-.practice-list {
-  list-style-type: none;
-  padding: 0;
-}
-
-.practice-list li {
-  background: #f8f9fa;
-  padding: 12px 20px;
-  margin: 10px 0;
-  border-radius: 8px;
-  border-left: 3px solid #667eea;
-  color: #2c3e50;
 }
